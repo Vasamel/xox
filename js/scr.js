@@ -62,7 +62,7 @@ function onClick(evt) {
 }
 
 function chemp(player) {
-    setTimeout(() => { alert(player) }, 300)
+    setTimeout(() => { alert(player)  }, 300)
 }
 
 function isWinner(arr) {

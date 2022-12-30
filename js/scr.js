@@ -1,5 +1,6 @@
 const content = document.querySelector('.content');
 const message = " is winner";
+const texT = "Player ";
 const wins = [
     [1, 2, 3],
     [4, 5, 6],
@@ -63,7 +64,7 @@ function onClick(evt) {
 }
 
 function chemp(player) {
-    setTimeout(() => { alert(player + message)  }, 300);
+    setTimeout(() => { alert(texT + player + message)  }, 300);
 }
 
 function isWinner(arr) {
